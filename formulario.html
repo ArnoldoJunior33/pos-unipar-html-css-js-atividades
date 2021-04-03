@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formulário</title>
+      <meta charset = "utf-8" />
+      <link href="../css/estilo.css" rel="stylesheet">
+   </head>
+   
+   <body>
+	  
+      <form action = "mailto:arnoldolimajunior@gmail.com" autocomplete = "on">
+	<header>
+		<center><h1>Formulário de Cadastro</h1><label>Escolha uma cor: </label><input type="color"></center>
+	</header>	  
+	  <nav>
+		<a href="index.html">Notícias</a> |
+		<a href="formulario.html">Formulário</a>
+	  </nav><br><br>
+         <fieldset>
+			<center><input type="image" src="../imagens/html5.png"></center><br><br>
+            <legend>Cadastro</legend>
+            <label>Nome.....: </label><input type = "text" maxlength = "100" size = "30" name = "txtNome" placeholder = "Digite aqui o seu nome" autofocus><br><br>
+            <label>Endereço: </label><input type = "text" maxlength = "100" size = "30" name = "txtEndereco" placeholder = "Digite aqui o seu endereço"><br><br>
+	    <label>Email.....: </label> <input type = "email" maxlength = "100" size = "30" name = "txtEmail" placeholder = "Digite aqui o seu email"><br><br>
+	    Comentários<br> 
+            <textarea rows = "5" cols = "40" name = "txtComentario"></textarea><br><br>
+	    Sexo: <input type = "radio" name = "sexo" value = "Homem" />Homem
+	    <input type = "radio" name = "sexo" value = "Mulher" />Mulher<br>
+	    <h3>Escolha quantas cores você deseja</h3>
+	    <input type = "checkbox" name = "cor1" />Azul
+	    <input type = "checkbox" name = "cor2" />Vermelho
+	    <input type = "checkbox" name = "cor3" />Amarelo<br><br>
+	    Escolha uma data: <input type = "date" /><br><br>
+	    Escolha uma hora: <input type = "time" /><br><br>
+	    <input type = "file" /><br>
+	    <h3>Qual curso deseja fazer?</h3>
+	    <select name = "selCurso">
+	       <option value = "html">HTML 5</option>
+	       <option value = "css">CSS</option>
+	       <option value = "js">JavaScript</option>
+	    </select><br>
+	    <h3>Escolha um navegador</h3>
+	    <input list = "navegadores" name = "navegadores">
+               <datalist id = "navegadores">
+	          <option value = "Internet Explorer">
+		  <option value = "Firefox">
+		  <option value = "Chrome">
+		  <option value = "Opera">
+		  <option value = "Safari">
+		</datalist><br><br>
+	     <center><input type = "submit" value = "Enviar Dados" />
+	     <input type = "reset" value = "Limpar Dados" /></center>
+	     <input type = hidden name = "escondido" value = "Formulário de Cadastro">
+         </fieldset>
+	 
+      </form>
+   </body>
+</html> 
