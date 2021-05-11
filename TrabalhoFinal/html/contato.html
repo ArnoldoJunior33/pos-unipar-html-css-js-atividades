@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Contato - Cesar Cabeleireiro</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="imagens/logo2.jpg"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+			    </nav>
+		    </div>
+		</header>
+
+		<main>
+			<form action = "mailto:arnoldolimajunior@gmail.com" autocomplete = "on">
+	
+         
+			
+            <label>Nome.....: </label><input type = "text" maxlength = "100" size = "30" name = "txtNome" placeholder = "Digite aqui o seu nome" autofocus><br><br>
+            <label>Endereço: </label><input type = "text" maxlength = "100" size = "30" name = "txtEndereco" placeholder = "Digite aqui o seu endereço"><br><br>
+	    <label>Email.....: </label> <input type = "email" maxlength = "100" size = "30" name = "txtEmail" placeholder = "Digite aqui o seu email"><br><br>
+	    Comentários<br> 
+            <textarea rows = "5" cols = "40" name = "txtComentario"></textarea><br><br>
+	    Sexo: <input type = "radio" name = "sexo" value = "Homem" />Homem
+	    <input type = "radio" name = "sexo" value = "Mulher" />Mulher<br><br>
+	    
+	    Escolha uma data: <input type = "date" /><br><br>
+	    Escolha uma hora: <input type = "time" /><br><br>
+	    
+	     <center><input type = "submit" value = "Enviar Dados" />
+	     <input type = "reset" value = "Limpar Dados" /></center>
+	     <input type = hidden name = "escondido" value = "Formulário de Cadastro">
+      </form>
+			
+		</main>
+		<footer>
+			<img src="imagens/logo2.jpg">
+			<p class="copyright">&copy; Copyright Barbearia Cesar Cabeleireiro - 2021</p>
+		</footer>
+	</body>
+</html>
